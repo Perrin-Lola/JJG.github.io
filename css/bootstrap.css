@@ -51,7 +51,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #212529;
-  background-color: #fff;
+  background-color: ##f4f6f8;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -1099,6 +1099,9 @@ progress {
   .col-md-3 {
     flex: 0 0 auto;
     width: 25%;
+    padding-top: 5%!important;
+    padding-left: 5%!important;
+    padding-right: 5%!important;
   }
   .col-md-4 {
     flex: 0 0 auto;
@@ -1107,11 +1110,16 @@ progress {
   .col-md-5 {
     flex: 0 0 auto;
     width: 41.66667%;
+    padding-top: 5%!important;
+    padding-left: 5%!important;
+    padding-right: 5%!important;  
   }
+
   .col-md-6 {
     flex: 0 0 auto;
     width: 50%;
     justify-content: center;
+    padding: 5%;
   }
   .col-md-7 {
     flex: 0 0 auto;
@@ -1141,7 +1149,7 @@ progress {
     margin-left: 0;
   }
   .offset-md-1 {
-    margin-left: 8.33333%;
+    margin-left: 0;
   }
   .offset-md-2 {
     margin-left: 16.66667%;
@@ -7582,7 +7590,9 @@ fieldset:disabled .btn {
 }
 
 .pt-4 {
-  padding-top: 3rem !important;
+  padding-top: 5%!important;
+  padding-left: 5%!important;
+  padding-right: 5%!important;
 }
 
 .pt-5 {
@@ -7865,6 +7875,12 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
+  background-color: #f4f6f8 !important;
+  padding-top: 5%!important;
+  padding-left: 5%!important;
+  padding-right: 5%!important;}
+
+.bg-light-header {
   background-color: #f4f6f8 !important;
 }
 

@@ -2,6 +2,11 @@ html, body {
   overflow-x: hidden;
 }
 
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #f4f6f8;
+  }
 /**
  * Enable smooth scrolling on the whole document
  */
@@ -26,6 +31,7 @@ html {
 }
 
 /* Header */
+
 .site-title {
   font-size: 1.5rem;
   font-weight: 700;
@@ -54,6 +60,12 @@ html {
 .nav-link:focus,
 .active .nav-link {
   color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.annonce-english {
+  padding-top: 3%;
+  padding-left: 1%;
+  font-size:large;
 }
 
 /* Hero (intro) section */
@@ -181,7 +193,7 @@ img.avatar {
 
 /* Portolio Caption */
 #bp_container .bp-xc {
-  background: yellow !important;
+  background: black !important;
 }
 
 #bp_caption a {
@@ -255,6 +267,12 @@ footer a:not(.nav-link) {
   background-repeat: no-repeat;
 }
 
+.markerblog {
+  width: 110px;
+  height: 15px;
+
+  }
+
 .marker-center:after {
   bottom: -30px;
   left: 50%;
@@ -275,3 +293,128 @@ footer a:not(.nav-link) {
 .entry-title a {
   text-decoration: none;
 }
+
+
+.aled {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+            }
+        
+            .articles-container {
+              width: 80%;
+              margin: 0;
+                           
+            }
+        
+            .article {
+              padding-top: 2%;
+              padding-bottom: 2%;
+              padding-left: 0;
+              padding-right: 0;
+              margin-bottom: 5%;
+              width: 125%;
+            }
+        
+            .h1-1 {
+              margin-bottom: 10px;
+              width: 100%; /* Prendre toute la largeur pour être sûr que le titre occupe une ligne complète */
+            }
+        
+            .a1 {
+              cursor: pointer;
+              font-size: 150%;
+              width: 100%; /* Les liens occupent la largeur complète pour être sur une ligne différente */
+              box-sizing: border-box; /* Inclure les bordures et les rembourrages dans la largeur totale */
+              text-align: left; /* Aligner le texte à gauche */
+              padding-bottom: 2%;
+              color: #542b86;
+              text-decoration: none;
+              font-size:larger;
+              font-weight: bold;
+            }
+        
+            .p1 {
+              display: none;
+              width: 100%; /* Prendre toute la largeur disponible */
+              box-sizing: border-box; /* Inclure les bordures et les rembourrages dans la largeur totale */
+              text-align: left; /* Aligner le texte à gauche */
+              padding-top: 4%;
+              display: flex;
+              flex-wrap: wrap;
+            }
+        
+            .texte {
+              display: none;
+              box-sizing: border-box; /* Inclure les bordures et les rembourrages dans la largeur totale */
+              text-align: left; /* Aligner le texte à gauche */
+            }
+
+            img.Hauteur_prop_largeur_accueil {
+              max-width: 25vw; /* Limiter la largeur à 25% de la largeur de la fenêtre */
+              max-height: auto; /* Ajuster la hauteur proportionnellement à la largeur */
+              display: block; /* Pour éviter l'espace réservé par l'image lors du chargement */
+              border-radius: 10%;
+              display: flex;
+              justify-content: center;
+              }   
+
+              img.Hauteur_prop_largeur_vocab {
+                max-width: 50vw; /* Limiter la largeur à 25% de la largeur de la fenêtre */
+                max-height: auto; /* Ajuster la hauteur proportionnellement à la largeur */
+                display: block; /* Pour éviter l'espace réservé par l'image lors du chargement */
+                display: flex;
+                justify-content: center;
+                }
+
+              .Hauteur_prop_largeur_video {
+                width: 50%; /* Limiter la largeur à 25% de la largeur de la fenêtre */
+                height: auto; /* Ajuster la hauteur proportionnellement à la largeur */
+                display: block; /* Pour éviter l'espace réservé par l'image lors du chargement */
+                border-radius: 10px;
+              } 
+              
+              .Hauteur_prop_largeur_moi {
+                width: 100%; /* Limiter la largeur à 25% de la largeur de la fenêtre */
+                height: auto; /* Ajuster la hauteur proportionnellement à la largeur */
+                display: block; /* Pour éviter l'espace réservé par l'image lors du chargement */
+                border-radius: 10px;
+              } 
+
+.centre {
+  display: flex; 
+  justify-content: center;
+}
+
+.colonne-gauche {
+  padding-right: 20px;
+  width: 30%;
+}
+
+.colonne-droite {
+  padding-right: 20px;
+  width: 70%;
+
+}
+
+
+      .sectionaled {
+        align-items: center;
+          display: flex;
+          flex-wrap: wrap;
+        
+      }
+
+  
+
+      .imgbite {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+    
+ 
